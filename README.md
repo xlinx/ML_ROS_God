@@ -1,10 +1,16 @@
 # ML_ROS_God
 train a Trajectory Motion Diffusion ai/ML model.
 
+<img src="media/1.png" height="100" alt=""><img src="media/2.png" height="100" alt="">
+
 ## Goal
 
 訓練ML模型可以結合中文英文的文字輸入情境描述，
 輸出json格式的資訊(Trajectory motion json)。
+
+## resource/reference quick link
+- URDF/motion-json validator https://urdf.decade.tw
+- [URDF/motion-json validator demo video](https://youtube.com/shorts/Bc-gohPOcZE?si=orJNU6qQ1TBOZbJ4)
 
 ## issue
 - 空間耦合（27個關節之間的協同運動學關係）與時間連續性（前後幀的流暢度，避免長序列飄移）
@@ -82,4 +88,4 @@ train a Trajectory Motion Diffusion ai/ML model.
     * https://civitai.com/articles/6988/extornode-using-llm-trigger-more-detail-that-u-never-thought
     * https://civitai.com/articles/6989/extornode-sd-image-auto-msg-to-u-mobile-realtime
     * https://civitai.com/articles/7090/share-sd-img-to-3rd-software-gpu-share-memory-realtime-spout-or-syphon
-<hr/>vitai.com/articles/7090/share-sd-img-to-3rd-software-gpu-share-memory-realtime-spout-or-syphon	
+* URDF/motion-json validator https://urdf.decade.tw
